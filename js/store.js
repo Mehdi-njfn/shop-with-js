@@ -1,8 +1,3 @@
-let shopItems = document.querySelector('.shop-items');
-let totalPrice = document.querySelector('.cart-total-price');
-let btnPurchase = document.querySelector('.btn-purchase');
-let cartItems = document.querySelector('.cart-items');
-
 let products = [
   {id:1, title:'Album 1',srcImg:'Images/Album 1.png', price:15.80, quantity:0 },
   {id:2, title:'Album 2',srcImg:'Images/Album 2.png', price:17.80, quantity:0 },
@@ -11,6 +6,11 @@ let products = [
   {id:5, title:'Cofee',srcImg:'Images/Cofee.png', price:5.80, quantity:0 },
   {id:6, title:'shirt',srcImg:'Images/shirt.png', price:12.80, quantity:0 },
 ]
+let shopItems = document.querySelector('.shop-items');
+let totalPrice = document.querySelector('.cart-total-price');
+let btnPurchase = document.querySelector('.btn-purchase');
+let cartItems = document.querySelector('.cart-items');
+
 let cart = [];
 
 function setQuntity(value, id, carts){
