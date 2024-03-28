@@ -6,6 +6,7 @@ let products = [
   {id:5, title:'Cofee',srcImg:'Images/Cofee.png', price:5.80, quantity:0 },
   {id:6, title:'shirt',srcImg:'Images/shirt.png', price:12.80, quantity:0 },
 ]
+
 let shopItems = document.querySelector('.shop-items');
 let totalPrice = document.querySelector('.cart-total-price');
 let btnPurchase = document.querySelector('.btn-purchase');
