@@ -22,7 +22,6 @@ function setQuntity(value, id, carts){
       return row;
     }
   })
-  console.log(cart);
   totalPriceCart(cart)
 }
 
