@@ -142,5 +142,4 @@ function addItems (){
   });
 }
 
-
 addItems();
