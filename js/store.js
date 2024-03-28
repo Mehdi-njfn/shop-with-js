@@ -67,7 +67,6 @@ function showCart(cartf){
     removeBtn.innerHTML = 'REMOVE';
     removeBtn.addEventListener('click',function(){
       cart = cartf.filter(item=>{return item.id !== row.id })
-      console.log(cart);
       showCart(cart);
     })
 
