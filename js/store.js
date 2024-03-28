@@ -103,7 +103,7 @@ function addToCart(item){
     })
   }
     showCart(cart);
-  }
+}
 
 function createItem(item){
   let div1 = document.createElement('div');
