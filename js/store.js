@@ -75,7 +75,6 @@ function showCart(cartf){
     div1.append(div2, span2, div3)
     cartItems.append(div1);
   })
-
 }
 
 function totalPriceCart(cart){
