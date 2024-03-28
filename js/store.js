@@ -26,8 +26,10 @@ function setQuntity(value, id, carts){
 }
 
 function showCart(cartf){
+
   totalPriceCart(cartf);
   cartItems.innerHTML = ''
+  
   cartf.forEach(row=>{
     let div1 = document.createElement('div');
   div1.classList.add('cart-row');
