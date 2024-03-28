@@ -29,10 +29,10 @@ function showCart(cartf){
 
   totalPriceCart(cartf);
   cartItems.innerHTML = ''
-  
+
   cartf.forEach(row=>{
     let div1 = document.createElement('div');
-  div1.classList.add('cart-row');
+    div1.classList.add('cart-row');
 
   let div2 = document.createElement('div');
   div2.classList = 'cart-item cart-column';
